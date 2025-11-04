@@ -1,0 +1,4 @@
+"Stephanie Warman"	2020	"UPE Dan Drew Award"	3000.00	"Upsilon Pi Epsilon"	NULL
+"Lela Bones"	2019	"UPE Academic Achievement Awards"	1500.00	"Upsilon Pi Epsilon"	NULL
+"Shannon Bull"	2018	"UPE Executive Council Awards"	2500.00	"Upsilon Pi Epsilon"	NULL
+"Omar Aboul-Enein"	2017	"UPE Schloarship Awards"	1000.00	"Upsilon Pi Epsilon"	NULL

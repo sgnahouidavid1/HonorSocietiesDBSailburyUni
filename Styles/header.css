@@ -1,0 +1,39 @@
+body{
+  	margin: 0;
+}
+.navbar{
+  	overflow: hidden;
+  	background-color: #8a0000;
+  	position: fixed;
+  	top: -3px;
+	z-index: 1;
+  	width: 100%;
+}
+.navbar .newPage{
+  	float: left;
+  	display: block;
+  	color: #f2f2f2;
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+  	font-family: Helvetica,Arial,sans-serif;
+  	font-size: 17px;
+}
+.navbar .user{
+	position: absolute;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 17px;
+	right:0;
+}
+.logo{
+  	overflow: inline-block;
+}
+.navbar .newPage:hover{
+  	background: #ffc420;
+  	color: black;
+}

@@ -1,0 +1,141 @@
+.center:after{
+	content:'';
+  	background: url('../Images/logo.png') no-repeat center center;
+  	background-size: 50%;
+  	position: absolute;
+  	top:-15%;
+  	width:100%;
+  	height:90%;
+	margin-left: -20%;
+  	z-index:-1;
+  	opacity: 0.25;
+}
+
+.mainContainer{
+	width: 100%;
+	height: 100%;
+	display: flex;
+  	opacity: 1.0;
+}
+
+.left{  
+	margin-top: 110px;
+  	width: 20%;
+}
+.left h3{
+  	text-align: center;
+  	font-family: Helvetica,Arial,sans-serif;
+  	font-size: 25px;
+	margin-bottom:50px;
+}
+
+.collapsibleButton{
+	background-color: #8a0000;
+	color: white;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	margin-bottom:1px;
+	text-align: left;
+	outline: none;
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 15px;
+}
+.active, .collapsibleButton:hover{
+ 	background-color: #FFC420;
+	color: black;
+}
+.collapsibleButton:after{
+ 	content: '\002B';
+	color: white;
+ 	font-weight: bold;
+  	float: right;
+  	margin-left: 5px;
+}
+.left .active:after{
+ 	content: "\2212";
+}
+.content{
+ 	padding: 0 18px;
+  	max-height: 0;
+  	overflow: hidden;
+  	transition: max-height 0.2s ease-out;
+  	background-color: #f1f1f1;
+}
+.sulinks{
+	height: 150px;
+	overflow: auto;
+	margin-bottom: 10px;
+	font-family: Helvetica,Arial,sans-serif;
+}
+.sulinks ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+}
+.sulinks li{
+	margin-left: 20px;
+	padding-top: 15px;
+}
+.sulinks a{
+	color:black;
+}
+.sulinks a:hover{
+	color: #8a0000;
+}
+
+.scroll{
+	margin-top: 10px;
+	height: 250px;
+	overflow: auto;
+}
+.cols{
+	height: 400px;
+	width: auto;
+	word-wrap: break-word;
+	font-family: Helvetica,Arial,sans-serif;
+}
+.cols ul{
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+	font-size: 15px;
+}
+.cols li{
+	margin-left:20px;
+	padding-top: 7px;
+}
+.cols a{
+	color: black;
+}
+.cols a:hover{
+	color: #8a0000;
+}
+
+.center{
+	margin-top: 100px;
+	margin-right: 5px;
+  	margin-left: 5px;
+  	width: 60%;
+}
+.center h1{
+ 	text-align: center;
+  	font-family: Helvetica,Arial,sans-serif;
+  	font-size: 30px;
+}
+.center p{
+	padding-left:10px;
+  	word-wrap: break-word;
+  	font-family: Helvetica,Arial,sans-serif;
+  	font-size: 20px;
+}
+.center .header2{
+	text-align: center;
+	font-size: 25px;	
+}
+.right{
+  	margin-top: 120px;
+  	width: auto;
+}

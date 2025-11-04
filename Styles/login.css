@@ -1,0 +1,107 @@
+
+body{
+	margin: 0;
+}
+
+#loginContainer{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.formContainer{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.6em;
+	margin-top:110px;
+	width: auto;
+	height: 50%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size:14px;
+	margin-bottom: 375px;
+}
+
+#create{
+	height: auto;
+}
+
+.form-inline{
+	border-color: #808080;
+	border-style:double;
+	border-width:4px;
+	padding:30px 60px 30px 60px;
+}
+
+.username{
+	padding:8px;
+}
+
+.password{
+	padding:8px;
+}
+
+.buttons a{
+	margin-left:50px;
+}
+
+.formElement{
+	padding:8px;
+	margin-left:50px;
+}
+
+#confirmPassword{
+	padding-top: 3px;
+}
+
+.button{
+	text-align:center;	
+}
+
+#heading{
+	color: #555;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.hint{
+	color: #555;
+	font-size: 10px;
+}
+
+/* The message box is shown when the user clicks on the password field */
+#message {
+  display:none;
+  background: #f4f4f4;
+  color: #000;
+  position: relative;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+#message p {
+  padding: 10px 35px;
+  font-size: 14px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+  color: green;
+}
+
+.valid:before {
+  position: relative;
+  left: -35px;
+  content: '\2714';
+}
+
+/* Add a red text color and an "x" icon when the requirements are wrong */
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  position: relative;
+  left: -35px;
+  content: '\2716';
+}

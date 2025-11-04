@@ -1,0 +1,115 @@
+body{
+	margin: 0;
+	position:relative;
+}
+
+.footer-container{
+	margin-top: 11%;
+}
+
+.topLabel{	
+	height: 20px;
+	width: 100%;
+	background-color: #8a0000;
+}
+.footerLabel{
+	text-align: center;
+	color: white;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.footer{
+	width: 100%;
+	height: auto;
+	background-color: #8a0000;
+	display: flex;
+}
+
+.footer-1{
+	height: 100%;
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+}
+.footer-1 h2{
+	margin-top: 45px;
+	font-size: 13px;
+	font-family: Helvetica, Arial,sans-serif;
+	text-align: center;
+}
+.footer-1 a{
+	color: white;
+	font-size: 10px;
+	text-decoration: underline;
+	font-family: Helvetica, Arial, sans-serif;
+}
+.footer-1 a:hover{
+	color: #00FFFF;
+	transition: 0.4s ease-out;
+}
+.footer-1 li{
+	margin-left:-8px;
+}
+
+.footer-2{
+	height: 100%;
+	width: auto;
+	margin-left: 5%;
+	margin-right: auto;
+	color: white;
+	font-family: Helvetica, Arial, sans-serif;
+}
+.footer-2 h2{
+	font-size: 13px;
+	text-align: center;
+}
+
+.footer-2 a{
+	font-size: 12px;
+	text-decoration: underline;
+	color: white;
+}
+.footer-2 a:hover{
+	color: #00ffff;
+	transition: 0.4 ease-out;
+}
+.footer-2 li{
+	margin-left: 140px;
+}
+
+.footer-3{
+	height: 100%;
+	width: auto;
+	margin-left: 5%;
+	margin-right: auto;
+	color: white;
+	font-family: Helvetica, Arial, sans-serif;
+}
+.footer-3 h2{
+	margin-top: 45px;
+	text-align: center;
+	font-size: 13px;
+}
+.footer-3 a{
+	text-decoration: underline;
+	font-size: 10px;
+	color: white;
+}
+.footer-3 a:hover{
+	color: #00ffff;
+	transition: 0.4 ease-out;
+}
+.footer-3 li{
+	margin-left:-14px; 
+}
+
+.list{
+	list-style-type: none;
+	cursor:default;
+}
+.extra{
+	list-style-type: none;
+	padding-bottom: 3px;
+}
+
